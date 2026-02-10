@@ -1,0 +1,199 @@
+.container {
+  width: 1440px;
+  height: 980px;
+  opacity: 1;
+  background: #eff6ff;
+  margin-top: 60px;
+}
+
+.leftSection {
+  max-width: 616px;
+  min-height: 170px;
+  opacity: 1;
+  padding-left: 120px;
+  padding-top: 100px;
+}
+
+.labelDiv {
+  width: 616px;
+  height: 24px;
+  opacity: 1;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 1;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #ff9140;
+}
+
+.headingDiv {
+  width: 616px;
+  height: 116px;
+  opacity: 1;
+  margin-top: 30px;
+}
+
+.headingLine {
+  font-family: "Source Serif Pro", serif;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.headingHighlight {
+  font-family: "Source Serif Pro", serif;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2563eb;
+  padding-top: 5px;
+}
+
+.rightSection {
+  display: flex;
+  margin-top: 80px;
+  margin-left: 96px;
+}
+.orbitDiv {
+  width: 472px;
+  height: 410px;
+  opacity: 1;
+  margin-top: 80px;
+  margin-left: 96px;
+}
+
+.cardsWrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 306px);
+  grid-template-rows: repeat(2, 270px);
+  gap: 32px;
+  justify-content: start;
+  margin-left: 650px;
+  position: relative;
+  top: -450px;
+}
+
+.cardBox {
+  width: 306px;
+  height: 270px;
+  opacity: 1;
+  margin-top: 40px;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+  box-shadow: 0px 0px 30px rgba(50, 85, 137, 0.15);
+
+  position: relative;
+  padding-top: 48px;
+}
+
+.cardAvatar {
+  position: absolute;
+  top: -28px;
+  left: 2px;
+
+  width: 95px;
+  height: 64px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.stars {
+  display: flex;
+
+  color: #f59e0b;
+
+  width: 116px;
+  height: 19px;
+  opacity: 1;
+  border-radius: 0.5px;
+}
+
+.text {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 15px;
+
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  vertical-align: middle;
+  width: 251px;
+  height: 60px;
+
+  opacity: 1;
+  color: #142349;
+  margin-top: 20px;
+}
+
+.author {
+  display: flex;
+  flex-direction: column;
+}
+
+.author strong {
+  display: block;
+
+  width: 96px;
+  height: 20px;
+
+  opacity: 1;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1;
+  letter-spacing: 0;
+  color: #3366ff;
+  margin-top: 20px;
+}
+
+.author span {
+  width: 39px;
+  height: 20px;
+  opacity: 1;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 12px;
+
+  line-height: 20px;
+  letter-spacing: 0;
+  vertical-align: middle;
+  color: #7688b6;
+}
+
+.cardsWrapper > .cardBox:nth-child(1) {
+  transform: translateY(-15px);
+}
+
+.cardsWrapper > .cardBox:nth-child(2) {
+  transform: translateY(-60px);
+}
+
+.cardsWrapper > .cardBox:nth-child(3) {
+  transform: translateY(-5px);
+}
+
+.cardsWrapper > .cardBox:nth-child(4) {
+  transform: translateY(-30px);
+}

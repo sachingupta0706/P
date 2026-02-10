@@ -1,0 +1,163 @@
+.footer {
+  background: #eaf9ff;
+  padding: 56px 16px;
+  margin-top: 120px;
+}
+
+.container {
+  max-width: 1440px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  flex-wrap: wrap;
+  margin-left: 120px;
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #2952ce;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.logo span {
+  font-size: 12px;
+  color: #5c85ff;
+  font-family: "DM Sans", sans-serif;
+}
+
+.subscribe {
+  display: flex;
+  background: #ffffff;
+  border-radius: 999px;
+  overflow: hidden;
+
+  width: 289px;
+}
+
+.subscribe input {
+  border: none;
+  padding: 10px 16px;
+  outline: none;
+  font-size: 14px;
+  width: 200px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  opacity: 0.4;
+}
+
+.subscribe button {
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  background: #fff;
+  padding-top: 4px;
+  margin-left: 44px;
+}
+
+.socials {
+  display: flex;
+  gap: 20px;
+  padding-right: 120px;
+  padding-top: 50px;
+}
+
+.socials a {
+  width: 36px;
+  height: 36px;
+
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+
+.line {
+  height: 1px;
+  background: #cfe8f3;
+  margin: 32px 0;
+  color: #c2d1ff;
+  max-width: 1190px;
+  margin-left: 120px;
+}
+
+.line1 {
+  width: 1px;
+
+  align-self: stretch;
+  background: #c2d1ff;
+}
+
+.bottom {
+  display: flex;
+  gap: 48px;
+  flex-wrap: wrap;
+  margin-left: 120px;
+}
+
+.hours {
+  min-width: 360px;
+}
+
+.hours h4 {
+  font-size: 14px;
+  margin-bottom: 16px;
+  text-transform: lowercase;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.timeRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #5c85ff;
+  font-size: 14px;
+}
+.timeRow span {
+  color: #5c85ff;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.copy {
+  margin-top: 40px;
+  font-size: 12px;
+  color: #64748b;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.links {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 48px;
+  flex: 1;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  line-height: 1.8;
+}
+
+.links h4 {
+  font-size: 14px;
+  margin-bottom: 12px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.links a {
+  display: block;
+  font-size: 13px;
+  color: #475569;
+  margin-bottom: 8px;
+  cursor: pointer;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}

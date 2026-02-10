@@ -1,0 +1,71 @@
+.section {
+  width: 100%;
+
+  max-width: 1200px;
+  min-height: 140px;
+  opacity: 1;
+  margin-top: 120px;
+  margin-left: 120px;
+}
+
+.label {
+  opacity: 1;
+
+  margin-left: 467px;
+  margin-bottom: 60px;
+
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 1;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #ff9140;
+}
+
+.container {
+  max-width: 1200px;
+  min-height: 56px;
+  margin-top: 60px;
+}
+.list {
+  display: flex;
+  list-style: none;
+}
+.list1 {
+  width: 200px;
+  height: 54px;
+  opacity: 1;
+
+  margin-right: 42px;
+}
+
+.list2 {
+  width: 208px;
+  height: 54px;
+  opacity: 1;
+
+  margin-right: 42px;
+}
+.list3 {
+  width: 200px;
+  height: 54px;
+  opacity: 1;
+
+  margin-right: 42px;
+}
+
+.list4 {
+  width: 208px;
+  height: 54px;
+  opacity: 1;
+
+  margin-right: 42px;
+}
+
+.list5 {
+  width: 216px;
+  height: 54px;
+
+  margin-right: 42px;
+}
