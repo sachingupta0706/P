@@ -290,3 +290,69 @@
   color: #3366ff;
   text-decoration: none;
 }
+
+@media (max-width: 1024px) {
+  .container {
+    width: 100%;
+    height: auto;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .cardContainer {
+    width: 100%;
+    height: auto;
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .text1 {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .btn {
+    padding-top: 24px;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .ftext {
+    font-size: 16px;
+  }
+
+  .stext {
+    font-size: 32px;
+  }
+
+  .txR {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .content {
+    width: 100%;
+  }
+
+  .cardContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .cardBig,
+  .cardRight {
+    width: 100%;
+  }
+}

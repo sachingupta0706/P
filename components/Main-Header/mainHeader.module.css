@@ -563,3 +563,151 @@
 
   transform: scale(1.2);
 }
+
+@media (max-width: 1024px) {
+  .wrapper {
+    padding-left: 24px;
+    padding-right: 24px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .ContainerLogo {
+    margin-left: 0;
+  }
+
+  .info {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .button {
+    margin-right: 24px;
+  }
+
+  .Navbar {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .menu {
+    flex-wrap: wrap;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .SearchBox {
+    margin-left: auto;
+  }
+
+  .hero {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .left,
+  .right {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .info {
+    width: 100%;
+    justify-content: flex-start;
+    gap: 16px;
+  }
+
+  .button {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 8px;
+  }
+
+  .Navbar {
+    flex-direction: column;
+    align-items: stretch;
+    padding-bottom: 12px;
+  }
+
+  .menu {
+    margin: 12px 16px 0;
+    gap: 16px;
+  }
+
+  .SearchBox {
+    width: 100%;
+    margin: 12px 16px 0;
+  }
+
+  .searchBtn {
+    margin-left: auto;
+  }
+
+  .hero {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .right {
+    margin-left: 0;
+    margin-top: 40px;
+  }
+
+  .circle {
+    width: 340px;
+    height: 340px;
+  }
+}
+
+@media (max-width: 480px) {
+  .wrapper {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .info {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .textcont h1,
+  .textcont span {
+    font-size: 40px;
+    line-height: 1.2;
+  }
+
+  .para p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .actions {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .video {
+    margin-left: 0;
+  }
+
+  .circle {
+    width: 260px;
+    height: 260px;
+  }
+
+  .imgdoc {
+    right: -10%;
+    transform: scale(1);
+  }
+}

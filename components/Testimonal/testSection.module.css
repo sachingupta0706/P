@@ -197,3 +197,68 @@
 .cardsWrapper > .cardBox:nth-child(4) {
   transform: translateY(-30px);
 }
+
+@media (max-width: 1024px) {
+  .container {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .leftSection {
+    padding-left: 60px;
+  }
+
+  .rightSection {
+    margin-left: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    height: auto;
+    max-width: 100%;
+  }
+
+  .leftSection {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 60px;
+  }
+
+  .rightSection {
+    flex-direction: column;
+    margin-left: 0;
+    margin-top: 40px;
+  }
+
+  .orbitDiv {
+    margin-left: 0;
+    margin-top: 40px;
+  }
+
+  .cardsWrapper {
+    margin-left: 0;
+    position: static;
+    top: 0;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    padding: 0 24px 40px;
+  }
+
+  .cardBox {
+    margin-top: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .labelDiv,
+  .headingDiv {
+    width: 100%;
+  }
+
+  .headingLine,
+  .headingHighlight {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+}

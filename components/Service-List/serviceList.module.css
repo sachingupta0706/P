@@ -447,3 +447,66 @@
   color: #5c85ff;
   text-decoration: none;
 }
+
+@media (max-width: 1024px) {
+  .container {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .container1 {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .rowThree {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    justify-content: center;
+  }
+
+  .rowThree > .card {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .textcontainer {
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 60px;
+  }
+
+  .container1 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .rowTwo {
+    grid-template-columns: 1fr;
+  }
+
+  .rowThree {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .tx1,
+  .tx2,
+  .blueText {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+
+  .rowTwo > .card:first-child .description,
+  .rowTwo > .card:nth-child(2) .description,
+  .rowThree > .card:nth-child(n) .description {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
